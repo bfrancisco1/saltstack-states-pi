@@ -1,3 +1,4 @@
 base:
   'home*':
     - ntp
+    - users
