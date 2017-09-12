@@ -1,4 +1,4 @@
-{% for user, args in pillar['users'].iteritems() % }
+{% for user, args in pillar['users'].iteritems() %}
 {{ user }}:
   user.present:
     - fullname: {{ args['fullname'] }}
