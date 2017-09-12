@@ -3,5 +3,5 @@
   user.present:
     - fullname: {{ args['fullname'] }}
     - password: {{ args['password'] }}
-    - hash_password: True
+    - hash_password: false
 {% endfor %}
