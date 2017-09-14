@@ -1,4 +1,4 @@
-{% for device, args in pillar['temp-probe'].iteritems() %}
+{% for device, args in pillar['device'].iteritems() %}
 
 import os
 import glob
