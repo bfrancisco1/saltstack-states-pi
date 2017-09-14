@@ -1,5 +1,5 @@
 copy readtemp:
   file.managed:
-    - name: /home/pi/readtemp.py
+    - name: /home/pi/scripts/readtemp.py
     - template: jinja
     - source: salt://temp-probe/scripts/readtemp.py
