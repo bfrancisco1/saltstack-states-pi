@@ -37,7 +37,8 @@ def read_temp():
 
 print(str(calendar.timegm(time.gmtime())) + ',' + str(read_temp()))
 
-Azure_DeviceName = {{ device }}
+{{ device }}
+Azure_DeviceName = 'something'
 Azure_DeviceKey = '4X/AKBYw7o88R+uekSwSawuGykFQnGOU9mQbpf8WUFE='
 Azure_IoTHubName = 'BF-Test-IOT'
 
