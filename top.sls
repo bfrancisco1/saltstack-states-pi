@@ -4,4 +4,4 @@ base:
     - users
     - temp-probe
     - openssh
-    - openssh.banner
+    - openssh.config
