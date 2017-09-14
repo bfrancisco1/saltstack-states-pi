@@ -3,3 +3,4 @@ base:
     - ntp
     - users
     - temp-probe
+    - openssh
