@@ -64,4 +64,4 @@ else:
   time.sleep(5)
   pf.redOff()
   GPIO.cleanup()
-{{% endfor %}}
+{% endfor %}
