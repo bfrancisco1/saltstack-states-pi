@@ -3,5 +3,4 @@ base:
     - ntp
     - users
     - temp-probe
-    - openssh
-    - openssh.config
+    - cron
