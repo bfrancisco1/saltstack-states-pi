@@ -4,3 +4,5 @@ base:
     - users
     - temp-probe
     - cron
+  'home-broker*':
+    - mosquitto
