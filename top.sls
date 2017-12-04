@@ -1,6 +1,5 @@
 base:
-  'home*':
+  'home-broker*':
     - ntp
     - users
-  '*broker*':
     - mosquitto
